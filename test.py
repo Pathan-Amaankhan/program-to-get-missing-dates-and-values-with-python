@@ -25,7 +25,7 @@ def getMissingDatesAndValues(inp):
 
 	return dict(zip(listOfDates,listOfValues))
 
-inp = {"2019-01-04":100,"2019-01-01":115}
+inp = {"2019-01-01":100,"2019-01-04":115}
 print(getMissingDatesAndValues(inp))
 inp = {"2019-01-10":10,"2019-01-11":20,"2019-01-13":10}
 print(getMissingDatesAndValues(inp))
